@@ -1,0 +1,14 @@
+// Questo programma stampa a video il messaggio "Ciao, Mondo!"
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string nome;
+    std::cout <<"come ti chiami? ";
+    std::cin >> nome;
+    //Stampa "Ciao, kevin!"
+    std::cout << "Ciao, " << nome << "!\n";
+    
+    return 0;
+    
+}
